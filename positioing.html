@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Absolute Positioning</title>
+
+	<style type="text/css">
+
+		.backgroung_image {position: absolute;
+
+			top: 0px;
+
+			left: 0px;
+
+			z-index: 1;}
+
+			.foregroung_image {
+
+				position: absolute;
+
+				top: 25px;
+
+				left: 100px;
+
+				z-index: 2;
+			}
+			.text {position: absolute;
+
+				top: 25px;
+
+				left: 100px;
+
+				z-index: 3;
+
+				font-size: 20pt;
+
+				font-family: tahoma, geneva, sans-serifl}
+	</style>
+
+</head>
+
+<body>
+
+<p><img src="backgroung_image.png" class="backgroung_image" alt="First Positioned
+
+	Image"/></p>
+	
+<p><img src="foregroung_image.png" class="foregroung_image" alt="Second Positioned
+
+	Image"/></p>
+
+<p class="text">Positioned Text</p>
+
+</body>
+
+</html>
